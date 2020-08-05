@@ -13,27 +13,40 @@
     <meta name="keywords" content="Kenzie" />
 
     <!-- Title Page-->
-    <title>Mad-Libs</title>
+    <title>Mad-Libs Activity</title>
 
     <!-- CSS-->
     <link href="css/main.css" rel="stylesheet" media="all" />
   </head>
 
   <body>
-    <h1>Mad-Libs</h1>
+    <h1>Mad-Libs Activity</h1>
     <script>
-      var animal = prompt("Name a kind of animal");
-      var place = prompt("Name a place");
-      var food = prompt("Name a food");
-      document.write("Here is a story for you!<br>");
+      var technology = prompt("Name a type of technology");
+      var fruit = prompt("Name a fruit");
+      var meal = prompt("Name a meal");
+      var letterGrade = prompt("Name a letter grade (A-F)");
+      var otherTechnology = prompt("Name another technology");
+
+      document.write("Welcome to class! <br>");
       document.write(
-        "The inconsiderate " +
-          animal +
-          " strode proudly through " +
-          place +
-          ", dropping " +
-          food +
-          " everywhere."
+        "Please make sure to always use a " +
+          technology +
+          " whenever you are learning online. <br>"
+      );
+      document.write(
+        "When you are there, there will be plenty of " +
+          fruit +
+          "s to eat at " +
+          meal +
+          ". <br>"
+      );
+      document.write(
+        "When you are finished learning on your " +
+          otherTechnology +
+          ", hopefully you will earn a solid " +
+          letterGrade +
+          "!"
       );
     </script>
   </body>
